@@ -1,0 +1,50 @@
+.App {
+  text-align: center;
+ 
+}
+
+.App-logo {
+  animation: App-logo-spin infinite 20s linear;
+  height: 80px;
+}
+
+.App-header {
+  background-image: url("https://t4.ftcdn.net/jpg/03/16/92/61/360_F_316926143_cVdnI6bJPbhlo1yZVTJk0R0sjBx4vVnO.jpg");
+  background-color: #3C58E4;
+  height: 150px;
+  padding: 20px;
+  color: #81FC27;
+}
+
+.App-header1 {
+  background-image: url("https://t4.ftcdn.net/jpg/03/16/92/61/360_F_316926143_cVdnI6bJPbhlo1yZVTJk0R0sjBx4vVnO.jpg");
+  background-color: #3C58E4;
+  height: 100px;
+  padding: 20px;
+  color: #81FC27;
+}
+
+.App-title {
+  font-size: 1.5em;
+}
+
+.App-intro {
+  font-size: large;
+}
+/*some css I added*/
+input[type="file"] {
+    display: inline-block;
+}
+
+.table {
+      max-width: 90%;
+      margin: 10px;
+}
+.table th {
+    text-align: center;
+}
+/*end of my css*/
+@keyframes App-logo-spin {
+  from { transform: rotate(0deg); }
+  to { transform: rotate(360deg); }
+}

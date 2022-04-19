@@ -1,0 +1,43 @@
+{
+  "name": "docublock",
+  "version": "0.1.0",
+  "private": true,
+  "dependencies": {
+    "bootstrap": "^3.3.7",
+    "cors": "^2.8.5",
+    "fs-extra": "^5.0.0",
+    "ipfs-api": "^18.1.1",
+    "react": "^16.2.0",
+    "react-background-image-loader": "0.0.5",
+    "react-bootstrap": "^0.32.1",
+    "react-dom": "^16.2.0",
+    "react-dropzone": "^4.2.8",
+    "react-scripts": "^3.0.0",
+    "truffle-hdwallet-provider": "0.0.3",
+    "web3": "^1.0.0-beta.26",
+    "web3-react": "^5.0.5"
+  },
+  "scripts": {
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test --env=jsdom",
+    "eject": "react-scripts eject"
+  },
+  "description": "#A simple DApp to upload a document to IPFS and then store the IPFS hash on the Ethereum blockchain. Once the IPFS hash number is sent to the Ethereum blockchain, the user will receive a transaction receipt. We will use Create-React-App framework to make a front-end. This Dapp works with any user that has MetaMask installed in their browser.",
+  "main": "index.js",
+  "devDependencies": {},
+  "author": "",
+  "license": "ISC",
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
+  }
+}
